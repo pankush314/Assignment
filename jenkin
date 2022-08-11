@@ -7,12 +7,12 @@ pipeline {
                 echo 'Hello World'
             }
         }
-		stage('Push to test') {
+	stage('Push to test') {
             steps {
                 echo 'Hello World'
             }
         }
-		stage('Push to Prod') {
+	stage('Push to Prod') {
             steps {
                 echo 'Hello World'
             }
